@@ -1,0 +1,11 @@
+1. git init -b qabranch                 -  -b means branch, naming the current folder as branch and the branch name is "qabranch"
+2. git add .                            -    add . - means add all the files to the stagging
+3. git status                            -  what are all committed and what are all waiting
+4. git commit -m "commit message"         - commit is saving your changes to local repo
+5. git remote add origin "remote url"    -    setting remote repo to a name "here origin is a name give to remote url"
+6. git remote -v                        - to know what is the remote name and url
+7. git push origin qabranch                - push commited changes available in local to Remote repo                
+8. git status                            - status of the current repo
+9. git log                                - list of actions
+git config --global user.email "username@gmail.com"        - set user name 
+git config --global user.password "password"            - set password
